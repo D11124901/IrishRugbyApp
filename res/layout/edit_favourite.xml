@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#387C44"
+    tools:context=".EditFavourite"
+    android:orientation="vertical" >
+    
+   <EditText
+    	  android:id="@+id/pName1"
+    	  android:layout_height="wrap_content"
+    	  android:layout_width="fill_parent"
+    	  android:singleLine="true"
+    	  android:hint="@string/pName1"/>
+   
+   <EditText
+    	  android:id="@+id/pHeight1"
+    	  android:layout_height="wrap_content"
+    	  android:layout_width="fill_parent"
+    	  android:singleLine="true"
+    	  android:layout_below="@id/pName1"
+    	  android:hint="@string/pHeight1"/>
+   
+   <EditText
+    	  android:id="@+id/pWeight1"
+    	  android:layout_height="wrap_content"
+    	  android:layout_width="fill_parent"
+    	  android:singleLine="true"
+    	  android:layout_below="@id/pHeight1"
+    	  android:hint="@string/pWeight1"/>
+   
+   <EditText
+    	  android:id="@+id/pPosition1"
+    	  android:layout_height="wrap_content"
+    	  android:layout_width="fill_parent"
+    	  android:singleLine="true"
+    	  android:layout_below="@id/pWeight1"
+    	  android:hint="@string/pPosition1"/>
+   
+   <EditText
+    	  android:id="@+id/pHonours1"
+    	  android:layout_height="wrap_content"
+    	  android:layout_width="fill_parent"
+    	  android:singleLine="true"
+    	  android:layout_below="@id/pPosition1"
+    	  android:hint="@string/pHonours1"/> 
+   
+   <Button
+       android:id="@+id/updateButton"
+       android:layout_below="@id/pHonours1"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="@string/updateButton" />
+    
+
+</RelativeLayout>

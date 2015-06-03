@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IrishRugbyApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="irfu">irfu</string>
+    <string name="player_profiles">Player Profiles</string>
+    <string name="name">Name</string>
+    <string name="full_bio">Full Bio</string>
+    <string name="pName">Player Name</string>
+    <string name="pHeight">Player Height</string>
+    <string name="pWeight">Player Weight</string>
+    <string name="pPosition">Player Position</string>
+    <string name="pHonours">Player Honours</string>
+    <string name="addButton">Add Player</string>
+    <string-array name="image_array">
+        <item ></item>
+    </string-array>
+    <string name="pName1">Player Name</string>
+    <string name="pHeight1">Player Height</string>
+    <string name="pWeight1">Player Weight</string>
+    <string name="pPosition1">Player Position</string>
+    <string name="pHonours1">Player Honours</string>
+    <string name="updateButton">Update Favourite Player </string>
+
+</resources>

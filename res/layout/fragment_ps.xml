@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#387C44"
+    tools:context=".PlayerScreen1" >
+
+  <ImageView 
+        android:id="@+id/img"
+        android:layout_width="128sp"
+        android:layout_height="128sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true" />
+    
+   	<TextView
+   	    android:id="@+id/t1"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:paddingTop="25sp"
+   	    android:textSize="20sp"
+   	    android:textStyle="normal"
+   	    android:textColor="#FFFFFF"
+   	    android:fontFamily="sans-serif-light"
+   	    android:layout_below="@id/img"/>
+    
+
+</RelativeLayout>

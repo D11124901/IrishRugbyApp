@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" 
+    android:background="#387C44"
+    tools:context=".PlayerProfiles" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="@string/player_profiles"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"/>
+		
+	 <ImageView
+	    android:id="@+id/img1"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_width="48sp"
+	    android:layout_height="48sp"
+	    android:src="@drawable/player_hs"/>
+	 
+	 <ImageView
+	    android:id="@+id/img2"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/right_arrow"/>
+	 
+	 <TextView 
+	    android:id="@+id/rowText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:textColor="#FFFFFF"
+	    android:layout_toRightOf="@id/img1"
+	    android:textSize="20sp"
+	    android:text="@string/name"/>
+    
+    <TextView
+        android:id="@+id/rowText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rowText"
+        android:layout_toRightOf="@id/img1"
+        android:text="@string/full_bio"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+    
+</RelativeLayout>
+
